@@ -33,7 +33,7 @@ TextureImporter:
     21300056: Jump_28
     21300058: Jump_29
   externalObjects: {}
-  serializedVersion: 5
+  serializedVersion: 7
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -51,6 +51,8 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -61,7 +63,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: -1
-    mipBias: -1
+    mipBias: -100
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -137,10 +139,10 @@ TextureImporter:
       name: Jump_0
       rect:
         serializedVersion: 2
-        x: 0
-        y: 768
-        width: 256
-        height: 256
+        x: 87
+        y: 824
+        width: 71
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -148,7 +150,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: afc90dda4b483b047bf04c037c185115
+      spriteID: 1e1971ed8e1d8614e9c2912249b764d8
       vertices: []
       indices: 
       edges: []
@@ -157,10 +159,10 @@ TextureImporter:
       name: Jump_1
       rect:
         serializedVersion: 2
-        x: 256
-        y: 768
-        width: 256
-        height: 256
+        x: 342
+        y: 824
+        width: 74
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -168,7 +170,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b7d679821646ba49ac5b1cd893e1ff5
+      spriteID: 943b0d7d3bee2b746ad8bfd83f24984d
       vertices: []
       indices: 
       edges: []
@@ -177,10 +179,10 @@ TextureImporter:
       name: Jump_2
       rect:
         serializedVersion: 2
-        x: 512
-        y: 768
-        width: 256
-        height: 256
+        x: 597
+        y: 823
+        width: 80
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -188,7 +190,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e77bb19a911c7e54292e570f56ce83c5
+      spriteID: 79ad2ea3f26608a48a1f37fc2902224f
       vertices: []
       indices: 
       edges: []
@@ -197,10 +199,10 @@ TextureImporter:
       name: Jump_3
       rect:
         serializedVersion: 2
-        x: 768
-        y: 768
-        width: 256
-        height: 256
+        x: 855
+        y: 823
+        width: 72
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,7 +210,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6086012e42f2d39478e14c6560e37f9b
+      spriteID: edf5fb06375503f4bbf73af733836b20
       vertices: []
       indices: 
       edges: []
@@ -217,10 +219,10 @@ TextureImporter:
       name: Jump_4
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 768
-        width: 256
-        height: 256
+        x: 1115
+        y: 823
+        width: 55
+        height: 79
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -228,7 +230,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: abecde2e61caaeb429e1e86dc4f178e0
+      spriteID: 7ac213c315252dc4b8ac58822c340d08
       vertices: []
       indices: 
       edges: []
@@ -237,10 +239,10 @@ TextureImporter:
       name: Jump_5
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 768
-        width: 256
-        height: 256
+        x: 1373
+        y: 823
+        width: 53
+        height: 78
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,7 +250,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8812b4104084e8041ba826758ec6f000
+      spriteID: c89bc8aee11c94846897937f4f477647
       vertices: []
       indices: 
       edges: []
@@ -257,10 +259,10 @@ TextureImporter:
       name: Jump_6
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 768
-        width: 256
-        height: 256
+        x: 1623
+        y: 824
+        width: 65
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -268,7 +270,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 75af05358c2eda742bb2fafd186189b7
+      spriteID: 86d1858e944cc044381819f0a422ab54
       vertices: []
       indices: 
       edges: []
@@ -277,10 +279,10 @@ TextureImporter:
       name: Jump_7
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 768
-        width: 256
-        height: 256
+        x: 1876
+        y: 824
+        width: 87
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -288,7 +290,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2757c130c211b82418c1ecf1a351f78f
+      spriteID: a0c6846c4b89822428f391c0ae1331e3
       vertices: []
       indices: 
       edges: []
@@ -297,10 +299,10 @@ TextureImporter:
       name: Jump_8
       rect:
         serializedVersion: 2
-        x: 0
-        y: 512
-        width: 256
-        height: 256
+        x: 78
+        y: 564
+        width: 96
+        height: 118
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -308,7 +310,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 819ce762f5c5bcc4cb0f78c124b7b692
+      spriteID: 43adcbc38aeb4ad4fb8afdbac1df3e6e
       vertices: []
       indices: 
       edges: []
@@ -317,10 +319,10 @@ TextureImporter:
       name: Jump_9
       rect:
         serializedVersion: 2
-        x: 256
-        y: 512
-        width: 256
-        height: 256
+        x: 327
+        y: 566
+        width: 82
+        height: 157
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -328,7 +330,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7acd340627844b043b887e726706a1e7
+      spriteID: a43b50c82500f344ca48e37d588d626a
       vertices: []
       indices: 
       edges: []
@@ -337,10 +339,10 @@ TextureImporter:
       name: Jump_10
       rect:
         serializedVersion: 2
-        x: 512
-        y: 512
-        width: 256
-        height: 256
+        x: 576
+        y: 569
+        width: 84
+        height: 178
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -348,7 +350,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f6eb26588565085498ded128a292d442
+      spriteID: dd9fe5ec9e7618444a0e90d04bbec73e
       vertices: []
       indices: 
       edges: []
@@ -357,10 +359,10 @@ TextureImporter:
       name: Jump_11
       rect:
         serializedVersion: 2
-        x: 768
-        y: 512
-        width: 256
-        height: 256
+        x: 828
+        y: 574
+        width: 94
+        height: 135
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -368,7 +370,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 45e9662905d79f04ea106a26641b34cd
+      spriteID: 42c7d668da8c98c4f9a05b2e03018d70
       vertices: []
       indices: 
       edges: []
@@ -377,10 +379,10 @@ TextureImporter:
       name: Jump_12
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 512
-        width: 256
-        height: 256
+        x: 1084
+        y: 587
+        width: 98
+        height: 86
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -388,7 +390,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 4acbc29883f21df4494e6a2da58ce77c
+      spriteID: 3be4ae0cc0bf6b44f917f3584c6109a0
       vertices: []
       indices: 
       edges: []
@@ -397,10 +399,10 @@ TextureImporter:
       name: Jump_13
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 512
-        width: 256
-        height: 256
+        x: 1343
+        y: 589
+        width: 99
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -408,7 +410,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c86395713cd1a0941828082692f11bf0
+      spriteID: 733e493b243ccc246b73e2de663a4755
       vertices: []
       indices: 
       edges: []
@@ -417,10 +419,10 @@ TextureImporter:
       name: Jump_14
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 512
-        width: 256
-        height: 256
+        x: 1600
+        y: 583
+        width: 102
+        height: 91
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -428,7 +430,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2d3af3eb3724fc141b2314fa61fd546f
+      spriteID: c95d961206c3a944e9254f1312de135f
       vertices: []
       indices: 
       edges: []
@@ -437,10 +439,10 @@ TextureImporter:
       name: Jump_15
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 512
-        width: 256
-        height: 256
+        x: 1860
+        y: 571
+        width: 102
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -448,7 +450,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ad2ca52e8b9e2e646a91cee670118cae
+      spriteID: b55131fa0ba60ab478e2ba225dd40796
       vertices: []
       indices: 
       edges: []
@@ -457,10 +459,10 @@ TextureImporter:
       name: Jump_16
       rect:
         serializedVersion: 2
-        x: 0
-        y: 256
-        width: 256
-        height: 256
+        x: 72
+        y: 308
+        width: 101
+        height: 113
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,7 +470,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5d87a97001f419b4d8c85487876d7e9f
+      spriteID: f619ab2c96f497f4bb942b5ce06380fe
       vertices: []
       indices: 
       edges: []
@@ -477,10 +479,10 @@ TextureImporter:
       name: Jump_17
       rect:
         serializedVersion: 2
-        x: 256
-        y: 256
-        width: 256
-        height: 256
+        x: 334
+        y: 311
+        width: 96
+        height: 101
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -488,7 +490,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 78bcb851a22881d48971e5387207f84e
+      spriteID: 42c7f84a7609d4847a9cf2d2ab781142
       vertices: []
       indices: 
       edges: []
@@ -497,10 +499,10 @@ TextureImporter:
       name: Jump_18
       rect:
         serializedVersion: 2
-        x: 512
-        y: 256
-        width: 256
-        height: 256
+        x: 592
+        y: 290
+        width: 90
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -508,7 +510,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 303132d680c19e841a546c85f944bec6
+      spriteID: f34d0f62fdf7cf749acbb187e81ae964
       vertices: []
       indices: 
       edges: []
@@ -517,10 +519,10 @@ TextureImporter:
       name: Jump_19
       rect:
         serializedVersion: 2
-        x: 768
-        y: 256
-        width: 256
-        height: 256
+        x: 848
+        y: 285
+        width: 84
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -528,7 +530,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74431f8f7a78dec419ee48a91388d9c5
+      spriteID: 0bfc0f158bc0345478af40fd5d3c96d3
       vertices: []
       indices: 
       edges: []
@@ -537,10 +539,10 @@ TextureImporter:
       name: Jump_20
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 256
-        width: 256
-        height: 256
+        x: 1105
+        y: 287
+        width: 80
+        height: 98
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -548,7 +550,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cdfff5592a1343245b5827218cd69126
+      spriteID: 39b76dbc815fc814bb88e88d9bf0a0fc
       vertices: []
       indices: 
       edges: []
@@ -557,10 +559,10 @@ TextureImporter:
       name: Jump_21
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 256
-        width: 256
-        height: 256
+        x: 1361
+        y: 289
+        width: 76
+        height: 99
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -568,7 +570,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: d918f701ee723b346b369a9cba5485a8
+      spriteID: 7c442791a4eb5014fb53107b0136dd94
       vertices: []
       indices: 
       edges: []
@@ -577,10 +579,10 @@ TextureImporter:
       name: Jump_22
       rect:
         serializedVersion: 2
-        x: 1536
-        y: 256
-        width: 256
-        height: 256
+        x: 1618
+        y: 294
+        width: 71
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -588,7 +590,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2eb04385417482447851220c613b6d8c
+      spriteID: 6895951ea98324a40a0676146977e00a
       vertices: []
       indices: 
       edges: []
@@ -597,10 +599,10 @@ TextureImporter:
       name: Jump_23
       rect:
         serializedVersion: 2
-        x: 1792
-        y: 256
-        width: 256
-        height: 256
+        x: 1876
+        y: 304
+        width: 71
+        height: 104
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -608,7 +610,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 13d857ec61a8d27499efa1e2af880021
+      spriteID: bfc553b446078004e89d1d205ca17a7e
       vertices: []
       indices: 
       edges: []
@@ -617,10 +619,10 @@ TextureImporter:
       name: Jump_24
       rect:
         serializedVersion: 2
-        x: 0
-        y: 0
-        width: 256
-        height: 256
+        x: 85
+        y: 56
+        width: 71
+        height: 103
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -628,7 +630,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 347f84ca0bc05964987f9960683d736b
+      spriteID: 37c4c1f9aef664048ac34d878430de2f
       vertices: []
       indices: 
       edges: []
@@ -637,10 +639,10 @@ TextureImporter:
       name: Jump_25
       rect:
         serializedVersion: 2
-        x: 256
-        y: 0
-        width: 256
-        height: 256
+        x: 342
+        y: 56
+        width: 70
+        height: 108
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -648,7 +650,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e087a2daf3042a743ac3b102b722f58f
+      spriteID: 4e63e54a6540a664e81f077fc3d83be3
       vertices: []
       indices: 
       edges: []
@@ -657,10 +659,10 @@ TextureImporter:
       name: Jump_26
       rect:
         serializedVersion: 2
-        x: 512
-        y: 0
-        width: 256
-        height: 256
+        x: 599
+        y: 56
+        width: 70
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -668,7 +670,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 377e7ef3d7429fe4fb5a9b702dfaaae8
+      spriteID: b3a4d62922705ed4e8dbfe580fda6200
       vertices: []
       indices: 
       edges: []
@@ -677,10 +679,10 @@ TextureImporter:
       name: Jump_27
       rect:
         serializedVersion: 2
-        x: 768
-        y: 0
-        width: 256
-        height: 256
+        x: 855
+        y: 56
+        width: 70
+        height: 109
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -688,7 +690,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 42a045162fc0f9c468db4795aa0f4fd6
+      spriteID: b8a82f58f92d73e4590ba2d301733221
       vertices: []
       indices: 
       edges: []
@@ -697,10 +699,10 @@ TextureImporter:
       name: Jump_28
       rect:
         serializedVersion: 2
-        x: 1024
-        y: 0
-        width: 256
-        height: 256
+        x: 1111
+        y: 56
+        width: 70
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -708,7 +710,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5ba467f5fe46fb9418fad4419d927b13
+      spriteID: 35f7d50293adce94e8afb41e41340700
       vertices: []
       indices: 
       edges: []
@@ -717,10 +719,10 @@ TextureImporter:
       name: Jump_29
       rect:
         serializedVersion: 2
-        x: 1280
-        y: 0
-        width: 256
-        height: 256
+        x: 1367
+        y: 56
+        width: 71
+        height: 110
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -728,7 +730,7 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f057c49db551bab4b8552d4fa90c1665
+      spriteID: f40e2068fbd3c604dbe0d600f6357498
       vertices: []
       indices: 
       edges: []
@@ -742,6 +744,8 @@ TextureImporter:
     edges: []
     weights: []
   spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
