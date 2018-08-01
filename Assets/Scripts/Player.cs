@@ -1,16 +1,25 @@
-﻿using System.Collections;
-using System.Collections.Generic;
+﻿using Assets.Scripts.Abstract;
 using UnityEngine;
 
-public class Player : MonoBehaviour {
+namespace Assets.Scripts
+{
+    public class Player : MonoBehaviour
+    {
+        public AbstractMovementBehaviour MovementBehaviour;
 
-	// Use this for initialization
-	void Start () {
+        public Rigidbody2D RidigBody;
+
+        // Use this for initialization
+        public void Start ()
+        {
 		
-	}
+        }
 	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+        // Update is called once per frame
+        public void Update ()
+        {
+            float horizontalMovement = MovementBehaviour.GetHorizontalMovement();
+            RidigBody.AddForce(new Vector2(horizontalMovement, 0));
+        }
+    }
 }
