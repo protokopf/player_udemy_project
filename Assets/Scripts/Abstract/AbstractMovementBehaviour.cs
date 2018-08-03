@@ -12,5 +12,11 @@ namespace Assets.Scripts.Abstract
         /// </summary>
         /// <returns></returns>
         public abstract float GetHorizontalMovement();
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public abstract bool GetHasJumped();
     }
 }
