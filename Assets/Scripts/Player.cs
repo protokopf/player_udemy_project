@@ -19,7 +19,7 @@ namespace Assets.Scripts
         public void Update ()
         {
             float horizontalMovement = MovementBehaviour.GetHorizontalMovement();
-            RidigBody.AddForce(new Vector2(horizontalMovement, 0));
+            RidigBody.velocity = new Vector2(horizontalMovement, RidigBody.velocity.y);
         }
     }
 }

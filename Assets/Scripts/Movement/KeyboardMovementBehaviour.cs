@@ -11,7 +11,7 @@ namespace Assets.Scripts.Movement
     {
         public override float GetHorizontalMovement()
         {
-            return Input.GetAxis("Horizontal");
+            return Input.GetAxisRaw("Horizontal");
         }
     }
 }
