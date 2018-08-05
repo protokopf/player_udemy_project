@@ -11,6 +11,8 @@ namespace Assets.Scripts
 
         public float JumpAcceleration;
 
+        public float Speed = 1.0f;
+
         public float RaycastDistance;
 
         public LayerMask LayerMask;
@@ -26,7 +28,7 @@ namespace Assets.Scripts
         {
             float horizontalMovement = MovementBehaviour.GetHorizontalMovement();
             float verticalMovement = RidigBody.velocity.y;
-            Debug.DrawRay(transform.position, Vector2.down, Color.green);
+            Debug.DrawRay(transform.position, Vector2.down * RaycastDistance, Color.green);
 
 
             if (MovementBehaviour.GetHasJumped() && IsGrounded())
@@ -34,7 +36,7 @@ namespace Assets.Scripts
                 verticalMovement += JumpAcceleration;
             }
 
-            RidigBody.velocity = new Vector2(horizontalMovement, verticalMovement);
+            RidigBody.velocity = new Vector2(horizontalMovement * Speed, verticalMovement);
         }
 
         private bool IsGrounded()
