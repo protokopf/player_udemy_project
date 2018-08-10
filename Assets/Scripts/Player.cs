@@ -5,6 +5,11 @@ namespace Assets.Scripts
 {
     public class Player : MonoBehaviour
     {
+        private bool _wasGrounded = true;
+
+        [SerializeField]
+        private bool _isJumping;
+
         public AbstractMovementBehaviour MovementBehaviour;
         public AbstractAnimationBehaviour AnimationBehaviour;
 
@@ -31,15 +36,37 @@ namespace Assets.Scripts
             float verticalMovement = RidigBody.velocity.y;
             Debug.DrawRay(transform.position, Vector2.down * RaycastDistance, Color.green);
 
+            bool isGrounded = IsGrounded();
 
-            if (MovementBehaviour.GetHasJumped() && IsGrounded())
+            if(_wasGrounded && !isGrounded)
+            {
+                _isJumping = true;
+            }
+            else if(!_wasGrounded && isGrounded)
+            {
+                _isJumping = false;
+            }
+
+            if(_isJumping)
+            {
+                AnimationBehaviour.Jump();
+            }
+            else
+            {
+                AnimationBehaviour.HorizontalMove(horizontalMovement);
+            }
+
+            _wasGrounded = isGrounded;
+
+
+            if (MovementBehaviour.GetHasJumped() && isGrounded)
             {
                 verticalMovement += JumpAcceleration;
             }
 
             RidigBody.velocity = new Vector2(horizontalMovement * Speed, verticalMovement);
 
-            AnimationBehaviour.HorizontalMove(horizontalMovement);
+            
         }
 
         private bool IsGrounded()
