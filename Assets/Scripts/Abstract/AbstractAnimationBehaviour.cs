@@ -6,6 +6,6 @@ namespace Assets.Scripts.Abstract
     {
         public abstract void HorizontalMove(float movement);
 
-        public abstract void Jump();
+        public abstract void Jump(bool jumping);
     }
 }

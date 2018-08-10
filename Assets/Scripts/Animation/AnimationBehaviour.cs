@@ -10,7 +10,6 @@ namespace Assets.Scripts.Animation
 
         public override void HorizontalMove(float movement)
         {
-            Animator.SetBool("Jump", false);
             Animator.SetBool("Move", movement != 0);
 
             if(movement > 0)
@@ -23,9 +22,9 @@ namespace Assets.Scripts.Animation
             }
         }
 
-        public override void Jump()
+        public override void Jump(bool jumping)
         {
-            Animator.SetBool("Jump", true);
+            Animator.SetBool("Jump", jumping);
         }
     }
 }

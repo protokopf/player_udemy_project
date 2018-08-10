@@ -44,8 +44,12 @@ namespace Assets.Scripts
                 if (MovementBehaviour.GetHasJumped() && isGrounded)
                 {
                     _isJumping = true;
-                    AnimationBehaviour.Jump();
+                    AnimationBehaviour.Jump(true);
                     StartCoroutine(JumpCoroutine(horizontalMovement));
+                }
+                else
+                {
+                    AnimationBehaviour.Jump(false);
                 }
             }
 
