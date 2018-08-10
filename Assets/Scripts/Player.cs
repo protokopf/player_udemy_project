@@ -6,6 +6,7 @@ namespace Assets.Scripts
     public class Player : MonoBehaviour
     {
         public AbstractMovementBehaviour MovementBehaviour;
+        public AbstractAnimationBehaviour AnimationBehaviour;
 
         public Rigidbody2D RidigBody;
 
@@ -37,6 +38,8 @@ namespace Assets.Scripts
             }
 
             RidigBody.velocity = new Vector2(horizontalMovement * Speed, verticalMovement);
+
+            AnimationBehaviour.HorizontalMove(horizontalMovement);
         }
 
         private bool IsGrounded()
