@@ -12,7 +12,14 @@ namespace Assets.Scripts.Animation
         {
             Animator.SetBool("Move", movement != 0);
 
-            SpriteRenderer.flipX = movement < 0;
+            if(movement > 0)
+            {
+                SpriteRenderer.flipX = false;
+            }
+            else if (movement < 0)
+            {
+                SpriteRenderer.flipX = true;
+            }
         }
 
     }
