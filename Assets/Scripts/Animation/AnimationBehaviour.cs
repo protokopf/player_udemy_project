@@ -1,8 +1,4 @@
 ﻿using Assets.Scripts.Abstract;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using UnityEngine;
 
 namespace Assets.Scripts.Animation
@@ -14,9 +10,10 @@ namespace Assets.Scripts.Animation
 
         public override void HorizontalMove(float movement)
         {
-            Animator.SetBool("IsRight", movement > 0);
-            Animator.SetBool("IsLeft", movement < 0);
+            Animator.SetBool("Move", movement != 0);
+
             SpriteRenderer.flipX = movement < 0;
         }
+
     }
 }
