@@ -45,7 +45,7 @@ namespace Assets.Scripts
                 {
                     _isJumping = true;
                     AnimationBehaviour.Jump();
-                    StartCoroutine(JumpCoroutine());
+                    StartCoroutine(JumpCoroutine(horizontalMovement));
                 }
             }
 
@@ -58,9 +58,9 @@ namespace Assets.Scripts
             return hit.collider != null;
         }
 
-        private IEnumerator JumpCoroutine()
+        private IEnumerator JumpCoroutine(float movement)
         {
-            yield return new WaitForSeconds(JumpOffsetSeconds);
+            yield return new WaitForSeconds(movement == 0 ? JumpOffsetSeconds : 0);
             RidigBody.velocity = new Vector2(RidigBody.velocity.x, RidigBody.velocity.y + JumpAcceleration);
         }
     }
