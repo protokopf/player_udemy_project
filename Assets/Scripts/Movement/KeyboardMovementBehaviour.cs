@@ -11,7 +11,7 @@ namespace Assets.Scripts.Movement
     {
         public override bool GetHasAttacked()
         {
-            return Input.GetKeyDown(KeyCode.E);
+            return Input.GetMouseButtonDown(0);
         }
 
         public override bool GetHasJumped()

@@ -53,7 +53,7 @@ namespace Assets.Scripts
                 }
             }
 
-            if(MovementBehaviour.GetHasAttacked())
+            if(MovementBehaviour.GetHasAttacked() && isGrounded)
             {
                 AnimationBehaviour.Attack();
             }
