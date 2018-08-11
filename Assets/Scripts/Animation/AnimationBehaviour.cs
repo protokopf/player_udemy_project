@@ -8,6 +8,11 @@ namespace Assets.Scripts.Animation
         public Animator Animator;
         public SpriteRenderer SpriteRenderer;
 
+        public override void Attack()
+        {
+            Animator.SetTrigger("Attack");
+        }
+
         public override void HorizontalMove(float movement)
         {
             Animator.SetBool("Move", movement != 0);

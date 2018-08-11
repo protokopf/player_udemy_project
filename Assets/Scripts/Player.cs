@@ -53,6 +53,11 @@ namespace Assets.Scripts
                 }
             }
 
+            if(MovementBehaviour.GetHasAttacked())
+            {
+                AnimationBehaviour.Attack();
+            }
+
             RidigBody.velocity = new Vector2(horizontalMovement * Speed, RidigBody.velocity.y);         
         }
 

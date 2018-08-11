@@ -9,6 +9,11 @@ namespace Assets.Scripts.Movement
 {
     public class KeyboardMovementBehaviour: AbstractMovementBehaviour
     {
+        public override bool GetHasAttacked()
+        {
+            return Input.GetKeyDown(KeyCode.E);
+        }
+
         public override bool GetHasJumped()
         {
             return Input.GetKeyDown(KeyCode.Space);

@@ -18,5 +18,11 @@ namespace Assets.Scripts.Abstract
         /// </summary>
         /// <returns></returns>
         public abstract bool GetHasJumped();
+
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <returns></returns>
+        public abstract bool GetHasAttacked();
     }
 }
