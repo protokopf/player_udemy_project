@@ -5,31 +5,37 @@ namespace Assets.Scripts.Animation
 {
     public class AnimationBehaviour : AbstractAnimationBehaviour
     {
-        public Animator Animator;
-        public SpriteRenderer SpriteRenderer;
+        public Animator PlayerAnimator;
+        public Animator SwordAnimator;
+
+        public SpriteRenderer PlayerSpriteRenderer;
+        public SpriteRenderer SwordSpriteRenderer;
 
         public override void Attack()
         {
-            Animator.SetTrigger("Attack");
+            PlayerAnimator.SetTrigger("Attack");
+            SwordAnimator.SetTrigger("Attack");
         }
 
         public override void HorizontalMove(float movement)
         {
-            Animator.SetBool("Move", movement != 0);
+            PlayerAnimator.SetBool("Move", movement != 0);
 
             if(movement > 0)
             {
-                SpriteRenderer.flipX = false;
+                PlayerSpriteRenderer.flipX = false;
+                SwordSpriteRenderer.flipX = false;
             }
             else if (movement < 0)
             {
-                SpriteRenderer.flipX = true;
+                PlayerSpriteRenderer.flipX = true;
+                SwordSpriteRenderer.flipX = true;
             }
         }
 
         public override void Jump(bool jumping)
         {
-            Animator.SetBool("Jump", jumping);
+            PlayerAnimator.SetBool("Jump", jumping);
         }
     }
 }
